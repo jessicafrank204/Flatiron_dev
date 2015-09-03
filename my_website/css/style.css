@@ -1,0 +1,27 @@
+/* This is called a CSS selector - selecting a tag and changing the attributes for that tag; seleting a class - changing the style for everything in the class, no matter the tag; selecting an id - an id only belongs to one thing on the page*/
+h1{    /*you're styling h1 header - anything between the { } is what is applied to the h1*/
+  color: turquoise;    /*have the attribute you want to change and on the right of the : put what you want to change it to.  Use ; to end the linen ; look up hexadecimal colors and type in the code to come up with specific colors*/
+}
+
+p{
+  color:green;   
+}
+
+ul{
+  color:blue; /*all the styling inside a tag picks up the styling of what I style on the outer thing - it follows the style of the closest tag*/
+}
+
+li{
+  color:green;
+}
+
+.joe  {  /*indicates that the thing you're styling is a class, not a tag; class is more specific than a tag so will follow the style of the class*/ 
+  
+ color:black; 
+  
+}
+
+#me{  /*indicatest that the thing you're styling is an id; an id is more specific than a class and a tag*/
+  
+  color:yellow;
+}

@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+h1{
+  font-family:'Anton';
+  color:#ff34b3;
+  background-color:yellow;
+  font-size:70px;
+}
+html{
+  background-color:#cdc5ff;
+  font-size:50px;
+}
+
+#title{
+  height:300px;
+  width:1100px;
+  background-color:yellow;
+  border-color:black;
+  border-style:solid;
+  border-width:5px;
+}
+
+#links{
+  margin-bottom:50px;
+}
+
+p{
+  font-size:40px;
+}
